@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<Mainpage />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/myprojects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
     </BrowserRouter>

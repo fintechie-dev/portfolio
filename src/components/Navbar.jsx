@@ -9,7 +9,7 @@ const Navbar=()=>{
                     isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-400"}>Home</NavLink>
             <NavLink to='/about' 
                 className={({isActive})=> isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-400" }>About</NavLink>
-            <NavLink to='/projects' 
+            <NavLink to='/myprojects' 
                 className={({isActive})=> isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-400" }>Projects</NavLink>
             <NavLink to='/contact' 
                 className={({isActive})=> isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-400" }>Contact</NavLink>

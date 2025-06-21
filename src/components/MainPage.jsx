@@ -21,7 +21,7 @@ const Mainpage=()=>{
                 FinTechie | Full-Stack Developer | Business Strategist
             </p>
             <a
-                href="/projects" 
+                href="/myprojects" 
                 className="bg-yellow-400 hover:bg-yellow-300 transition text-gray-800 px-6 py-3 rounded-full font-semibold">
                 View My Work
             </a>
@@ -53,7 +53,7 @@ const Mainpage=()=>{
                                 visible:{opacity:1, scale:1},
                             }}
                             className="bg-yellow-400 text-gray-800 px-4 py-2 rounded-full font-medium shadow hover:bg-yellow-300 transition"
-                            ><span className="text-lg">{skill.icon}</span>
+                            ><span className="flex justify-center text-lg">{skill.icon}</span>
                             {skill.name}
                             </motion.span>
                     ))}
